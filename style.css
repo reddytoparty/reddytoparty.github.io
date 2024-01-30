@@ -1,31 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0e68c;
+    background-image: url('dalle.png');
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fix the background image position */
     color: #333;
     text-align: center;
 }
 
-header {
-    background-color: #ff6347;
-    color: white;
-    padding: 10px 0;
-}
-
-#party-details, #rsvp {
+header, #party-details, #rsvp {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
     margin: 20px;
     padding: 15px;
-    background-color: #add8e6;
     border-radius: 8px;
 }
 
-input[type=email] {
+input[type=email], input[type=submit] {
     margin-top: 10px;
     padding: 5px;
 }
 
 input[type=submit] {
-    margin-top: 10px;
-    padding: 5px 15px;
     background-color: #32cd32;
     color: white;
     border: none;
